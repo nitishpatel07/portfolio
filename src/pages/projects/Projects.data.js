@@ -22,7 +22,7 @@ const PORTFOLIO_PROJECTS = [
     title: "Guess The number",
     imageSrc: "images/guessthenumber.jpg",
     id: 3,
-    linkUrl: "https://nitishpatel07.github.io/Guess-game/",
+    linkUrl: "https://main.drhjwfdr76ujs.amplifyapp.com/",
     about: "Game",
     stack: "JavaScript",
     description:
