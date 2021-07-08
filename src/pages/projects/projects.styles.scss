@@ -1,0 +1,59 @@
+.projects {
+  display: flex;
+  padding: 19rem 17.5rem 4rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  .heading {
+    display: flex;
+    flex-direction: row;
+    color: #202020;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 4.5rem;
+    position: absolute;
+    top: 6rem;
+
+    .heading-background {
+      height: 0.75rem;
+      width: 110%;
+      background-color: rgb(255, 253, 140);
+      position: absolute;
+      z-index: -1;
+      left: -5%;
+      top: 3.5rem;
+    }
+    .heading-about {
+      //font-size: 4.75rem;
+      margin-right: 0.8rem;
+    }
+    .heading-me {
+      -webkit-text-fill-color: #ffffff00;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(2, 2, 2);
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .projects {
+    padding: 17rem 7rem 5rem;
+    .heading {
+      font-size: 4.5rem;
+      top: 4.5rem;
+      .heading-background {
+        height: 1.35rem;
+        width: 105%;
+        position: absolute;
+        z-index: -1;
+        left: -2.5%;
+        top: 3.65rem;
+      }
+      .heading-about {
+        font-size: 4.7rem;
+        margin-right: 1.45rem;
+      }
+    }
+  }
+}

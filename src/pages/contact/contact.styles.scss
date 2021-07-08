@@ -1,0 +1,73 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 8rem 17.5rem 16rem;
+
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    color: #202020;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 5.25rem;
+    position: relative;
+    .background {
+      height: 14rem;
+      width: 14rem;
+      background-color: rgb(255, 253, 140);
+      position: absolute;
+      z-index: -1;
+      transform: rotate(13deg);
+      top: -0.5rem;
+      left: 2.5rem;
+    }
+    .get-in {
+      font-size: 5.75rem;
+    }
+    .touch {
+      -webkit-text-fill-color: #ffffff00;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(2, 2, 2);
+    }
+  }
+  .contact-right {
+    color: #4b4b4b;
+    font-family: Raleway;
+    .heading {
+      font-size: 3.2rem;
+      margin: 4.5vmax 0 0.3vmax;
+      font-weight: 600;
+    }
+    .info {
+      font-size: 2.3rem;
+      font-weight: 400;
+      margin-right: 3rem;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 17rem 8rem 10rem;
+    position: relative;
+    .contact-left {
+      position: absolute;
+      left: 7.5rem;
+      top: 2rem;
+    }
+    .contact-right {
+      width: 91%;
+      .heading {
+        font-size: 3.4rem;
+        margin: 4.5vmax 0 0.3vmax;
+      }
+      .info {
+        font-size: 2.65rem;
+        margin-right: 3rem;
+      }
+    }
+  }
+}

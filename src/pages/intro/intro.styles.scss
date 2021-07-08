@@ -1,0 +1,60 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00003d;
+  height: 75.3rem;
+  padding: 10rem;
+  .image {
+    height: 22.5rem;
+    width: 22.5rem;
+  }
+  .name {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-top: 3rem;
+    color: white;
+  }
+  .post {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    position: relative;
+  }
+  .down {
+    margin-top: 2.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 60rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .intro {
+    height: 100rem;
+    padding: 7rem;
+    .image {
+      height: 24rem;
+      width: 24rem;
+    }
+    .name {
+      font-size: 4.75rem;
+      margin-top: 4.5rem;
+    }
+    .post {
+      font-size: 3.25rem;
+      margin-top: 2.5rem;
+      position: relative;
+    }
+    .down {
+      position: absolute;
+      top: 82.5rem;
+      transform: scale(1.35);
+    }
+  }
+}
