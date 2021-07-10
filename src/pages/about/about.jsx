@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./about.styles.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import resume from "../../assests/resume.pdf";
+import resume from "../../assests/resume1.pdf";
 
 const About = () => {
   useEffect(() => {
