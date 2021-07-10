@@ -41,7 +41,7 @@ const About = () => {
         <p className="para">
           You can find my resume{" "}
           <span className="highlight">
-            <a href="resume.pdf" target="_blank">
+            <a href="" target="_new">
               here
             </a>
           </span>
