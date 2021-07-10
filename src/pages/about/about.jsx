@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./about.styles.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import resume from "../../assests/resume1.pdf";
 
 const About = () => {
   useEffect(() => {
@@ -42,7 +41,7 @@ const About = () => {
         <p className="para">
           You can find my resume{" "}
           <span className="highlight">
-            <a href={resume} target="_blank">
+            <a href="resume.pdf" target="_blank">
               here
             </a>
           </span>
