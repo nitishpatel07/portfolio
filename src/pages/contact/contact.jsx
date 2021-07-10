@@ -1,6 +1,5 @@
 import React from "react";
 import "./contact.styles.scss";
-import Resume from "../../assests/resume2.pdf";
 
 const Contact = () => {
   return (
@@ -36,7 +35,11 @@ const Contact = () => {
           <h1 className="heading">Resume</h1>
           <span className="info">
             You can find my resume
-            <a className="here" href={Resume} target="_blank">
+            <a
+              className="here"
+              href="../../assests/resume2.pdf"
+              target="_blank"
+            >
               here
             </a>
             .
