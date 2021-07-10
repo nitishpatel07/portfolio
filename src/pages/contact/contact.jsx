@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.styles.scss";
+import resume from "../../assests/resume.pdf";
 
 const Contact = () => {
   return (
@@ -30,6 +31,16 @@ const Contact = () => {
           <a href="https://www.facebook.com/nitish.patel.9" target="_blank">
             <span className="info">Facebook</span>
           </a>
+        </div>
+        <div className="resume">
+          <h1 className="heading">Resume</h1>
+          <span className="info">
+            You can find my resume
+            <a className="here" href={resume} target="_blank">
+              here
+            </a>
+            .
+          </span>
         </div>
       </div>
     </div>
