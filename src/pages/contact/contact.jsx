@@ -35,7 +35,11 @@ const Contact = () => {
           <h1 className="heading">Resume</h1>
           <span className="info">
             You can find my resume
-            <a className="here" href="resume.pdf" target="_blank">
+            <a
+              className="here"
+              href="https://drive.google.com/file/d/1LfNgiuU0q_rSlz1-HFEfts2APWB-RkUu/view?usp=sharing"
+              target="_blank"
+            >
               here
             </a>
             .

@@ -1,20 +1,27 @@
 import React from "react";
-import Homepage from "./pages/homepage/homepage";
+import Projects from "./pages/projects/projects";
+import Intro from "./pages/intro/intro";
+import Contact from "./pages/contact/contact";
+import Footer from "./pages/footer/footer";
+import About from "./pages/about/about";
 import "./App.scss";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 
-const resume = () => <div>new</div>;
+const resume = () => (
+  <div>
+    <h1>resume</h1>
+  </div>
+);
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <BrowserRouter>
-          <Switch>
-            <Route exact path="/" component={Homepage} />
-            <Route exact path="/resume.pdf" component={resume} />
-          </Switch>
-        </BrowserRouter>
+        <Intro />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     );
   }

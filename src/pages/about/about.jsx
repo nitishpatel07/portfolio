@@ -41,7 +41,10 @@ const About = () => {
         <p className="para">
           You can find my resume{" "}
           <span className="highlight">
-            <a href="" target="_new">
+            <a
+              href="https://drive.google.com/file/d/1LfNgiuU0q_rSlz1-HFEfts2APWB-RkUu/view?usp=sharing"
+              target="_blank"
+            >
               here
             </a>
           </span>
