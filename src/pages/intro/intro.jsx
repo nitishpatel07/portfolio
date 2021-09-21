@@ -10,7 +10,7 @@ const Intro = () => {
   return (
     <div className="intro">
       <img className="image" src={uilogo} alt="displayimage" />
-      <span className="name">Nitish Kumar Patel</span>
+      <span className="name">Nitish Patel</span>
       {/* <span className="post">Front-End Developer</span> */}
       <Typical
         className="post"
