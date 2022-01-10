@@ -10,9 +10,18 @@ const PORTFOLIO_PROJECTS = [
       " A social media handle showcasing my data visualization through illustrations and animation on stats centered around India.",
   },
   {
+    title: "Food Ordering App",
+    imageSrc: "images/foodapp.jpg",
+    id: 2,
+    linkUrl: "https://nkpfoodshop.netlify.app/signup",
+    about: "Web Dev",
+    stack: "React-Redux, TailwindCSS, Firebase",
+    description: " A completely functional and responsive Food Shopping app.",
+  },
+  {
     title: "Clothing App",
     imageSrc: "images/ecommerce.jpg",
-    id: 2,
+    id: 3,
     linkUrl: "https://main.d8gfslizw4zr2.amplifyapp.com/",
     about: "Web Development",
     stack: "React-Redux, Firebase",
@@ -21,7 +30,7 @@ const PORTFOLIO_PROJECTS = [
   {
     title: "Guess The number",
     imageSrc: "images/guessthenumber.jpg",
-    id: 3,
+    id: 4,
     linkUrl: "https://main.drhjwfdr76ujs.amplifyapp.com/",
     about: "Game",
     stack: "JavaScript",
@@ -31,7 +40,7 @@ const PORTFOLIO_PROJECTS = [
   {
     title: "Pig Dice Game",
     imageSrc: "images/dice game.jpg",
-    id: 4,
+    id: 5,
     linkUrl: "https://nitishpatel07.github.io/Dice-game/",
     about: "Game",
     stack: "JavaScript",
@@ -41,7 +50,7 @@ const PORTFOLIO_PROJECTS = [
   {
     title: "Natours",
     imageSrc: "images/natours.jpg",
-    id: 5,
+    id: 6,
     linkUrl: "https://nitishpatel07.github.io/Tourism-company-app/",
     about: "Web Development",
     stack: "Flexbox, SCSS",
@@ -50,7 +59,7 @@ const PORTFOLIO_PROJECTS = [
   {
     title: "Trillo",
     imageSrc: "images/trillo.jpg",
-    id: 6,
+    id: 7,
     linkUrl: "https://nitishpatel07.github.io/Hotel-booking/",
     about: "Landing Page",
     stack: "Flexbox, SCSS",

@@ -6,7 +6,6 @@ import PORTFOLIO_PROJECTS from "./Projects.data";
 class Projects extends React.Component {
   constructor() {
     super();
-
     this.state = {
       sections: PORTFOLIO_PROJECTS,
     };
