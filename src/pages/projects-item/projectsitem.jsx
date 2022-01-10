@@ -18,13 +18,13 @@ const ProjectItem = ({
     <div data-aos="fade-up" className="preview-item">
       <div className="top">
         {" "}
-        <a href={linkUrl} target="_blank">
-          <img className="image" src={imageSrc} alt="picture" />
+        <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+          <img className="image" src={imageSrc} alt="" />
         </a>
       </div>
 
       <div className="bottom">
-        <a href={linkUrl} target="_blank">
+        <a href={linkUrl} target="_blank" rel="noopener noreferrer">
           <span className="name">{title}</span>
         </a>
 
