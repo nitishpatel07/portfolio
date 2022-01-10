@@ -43,6 +43,10 @@
       font-size: 2.3rem;
       font-weight: 400;
       margin-right: 3rem;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
       .here {
         margin-left: 0.75rem;
         color: #363636;

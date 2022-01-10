@@ -5,13 +5,6 @@ import Contact from "./pages/contact/contact";
 import Footer from "./pages/footer/footer";
 import About from "./pages/about/about";
 import "./App.scss";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
-
-const resume = () => (
-  <div>
-    <h1>resume</h1>
-  </div>
-);
 
 class App extends React.Component {
   render() {

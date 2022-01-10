@@ -31,6 +31,7 @@ const About = () => {
             <a
               href="https://www.instagram.com/unfoldingindia.in/?hl=en"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Unfolding India
             </a>
@@ -44,6 +45,7 @@ const About = () => {
             <a
               href="https://drive.google.com/file/d/1LfNgiuU0q_rSlz1-HFEfts2APWB-RkUu/view?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
             >
               here
             </a>
